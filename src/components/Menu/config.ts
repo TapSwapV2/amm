@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://tapswap.money',
+    href: 'https://tapswap.exchange',
   },
   {
     label: 'Trade (V2)',
@@ -13,13 +13,13 @@ const config: MenuEntry[] = [
       {
         label: 'Exchange',
         href:
-          'https://swapv2.tapswap.money/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+          'https://swap.tapswap.exchange/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x56eab07247e3e6404ac90140F20bba61375d5C3C',
         target: '_blank',
       },
       {
         label: 'Liquidity',
         href:
-          'https://swapv2.tapswap.money/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
+          'https://swap.tapswap.exchange/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x56eab07247e3e6404ac90140F20bba61375d5C3C',
         target: '_blank',
       },
     ],
@@ -43,22 +43,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://tapswap.money/#/farms',
+    href: 'https://tapswap.exchange/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://tapswap.money/#/pools',
+    href: 'https://tapswap.exchange/#/pools',
   },
   {
     label: 'Launchpad',
     icon: 'BushIcon',
-    href: 'https://tapswap.money/#/bush',
+    href: 'https://tapswap.exchange/#/bush',
   },
   // {
   //   label: 'Techrate Audit',
   //   icon: 'ShieldIcon',
-  //   href: 'https://tapswap.money/files/audit_techrate.pdf',
+  //   href: 'https://tapswap.exchange/files/audit_techrate.pdf',
   //   target: '_blank',
   // },
   // {
@@ -93,17 +93,17 @@ const config: MenuEntry[] = [
       },
       // {
       //   label: 'Token',
-      //   href: 'https://doc.tapswap.money/tokennomics/taps-token',
+      //   href: 'https://doc.tapswap.exchange/tokennomics/taps-token',
       //   target: '_blank',
       // },
       // {
       //   label: 'Contracts',
-      //   href: 'https://doc.tapswap.money/security/contracts',
+      //   href: 'https://doc.tapswap.exchange/security/contracts',
       //   target: '_blank',
       // },
       // {
       //   label: 'Transparency',
-      //   href: 'https://doc.tapswap.money/transparency/transparency',
+      //   href: 'https://doc.tapswap.exchange/transparency/transparency',
       //   target: '_blank',
       // },
       // {
@@ -136,7 +136,7 @@ const config: MenuEntry[] = [
       },
       // {
       //   label: 'Docs',
-      //   href: 'https://doc.tapswap.money/',
+      //   href: 'https://doc.tapswap.exchange/',
       //   target: '_blank',
       // },
       {

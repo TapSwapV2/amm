@@ -44,7 +44,7 @@ const listCache: WeakMap<TokenList, TokenAddressMap> | null =
 export function listToTokenMap(list: TokenList): TokenAddressMap {
   console.log('-- list : ', list);
   // list.push({
-  //   name: "TapSwap.Money", symbol: "TAPS", address: "0x56eab07247e3e6404ac90140F20bba61375d5C3C", chainId: 56, decimals: 18
+  //   name: "tapswap.exchange", symbol: "TAPS", address: "0x56eab07247e3e6404ac90140F20bba61375d5C3C", chainId: 56, decimals: 18
   // })
   const result = listCache?.get(list)
   if (result) return result
